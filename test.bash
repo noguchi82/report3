@@ -10,16 +10,16 @@ ng () {
 res=0
 
 ### l/O TEST ###
-out=$(./result.py)
-[ "${out}"=] 
+out=$(echo 3 |./result)
+[ "${out}"= 奇数 ]  || ng $LINENO 
 
 
 ###STRANGE INPUT ###
-out=$(echo | ./result.py)
+out=$(echo あ | ./result)
 [ "$?" = 1 ]        || ng $LINENO
 [ "${out}" = "" ]   || ng $LINENO
 
-out=$(echo | ./result.py)
+out=$(echo | ./result)
 [ "$?" = 1 ]        || ng $LINENO
 [ "${out}" = "" ]   || ng $LINENO
 
