@@ -1,6 +1,6 @@
 # report3
 ![test](https://github.com/noguchi82/report3/actions/workflows/test.yml/badge.svg)
-千葉工業大学　ロボットシステム学　課題3のリポジトリである。
+千葉工業大学　ロボットシステム学　課題3のリポジトリである
 
 ## 概要
 入力された整数が奇数であるか、偶数であるか判定する。
