@@ -9,7 +9,7 @@ ng () {
 
 res=0
 
-### l/O TEST ###
+### I/O TEST ###
 out=$(echo 3 |./result)
 [ "${out}"= 奇数 ]  || ng $LINENO 
 
