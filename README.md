@@ -13,23 +13,22 @@ $ cd report3
 ## 実行方法
 任意の整数を入力し
 
-$ ./result.py
+$ ./result
+
+もしくは
+
+$ echo 数字｜./result
 
 で実行する。
 
 ## 例1
-$ ./result
-
-整数を入力5
-
-奇数
+$ echo 3 | ./result
+奇数 
 
 ## 例2
 $ ./result
-
-整数を入力8
-
-偶数
+3
+奇数
 
 ## 必要なソフトウェア
 Python 3.7～3.10
