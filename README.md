@@ -10,4 +10,4 @@ Ubuntu 22.04.1 LTS
 ## License
 このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されます。
 
-©　2022 Noguchi Kousuke
+©　2023 Noguchi Kousuke
