@@ -1,6 +1,6 @@
 # report3
 ロボットシステム学　課題3のリポジトリ
-
+![test](https://github.com/noguchi82/report3/actions/workflows/test.yml/badge.svg)
 ## 必要なソフトウェア
 Python 3.7～3.10
 
