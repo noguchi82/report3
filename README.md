@@ -23,11 +23,14 @@ $ echo 数字｜./result
 
 ## 例1
 $ echo 3 | ./result
+
 奇数 
 
 ## 例2
 $ ./result
+
 3
+
 奇数
 
 ## 必要なソフトウェア
