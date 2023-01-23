@@ -10,5 +10,18 @@ ng () {
 res=0
 
 ### l/O TEST ###
-out=$(./result.py < number)
-[ "${out}"= 
+out=$(./result.py)
+[ "${out}"=] 
+
+
+###STRANGE INPUT ###
+out=$(echo | ./result.py)
+[ "$?" = 1 ]        || ng $LINENO
+[ "${out}" = "" ]   || ng $LINENO
+
+out=$(echo | ./result.py)
+[ "$?" = 1 ]        || ng $LINENO
+[ "${out}" = "" ]   || ng $LINENO
+
+[ "$res" = 0 ] && echo OK
+exit $res

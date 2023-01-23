@@ -10,6 +10,13 @@ $ git clone https://github.com/noguchi82/report3.git
 
 $ cd report3
 
+## 実行方法
+任意の整数を入力し
+
+$ ./result.py
+
+で実行する。
+
 ## 必要なソフトウェア
 Python 3.7～3.10
 
